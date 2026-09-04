@@ -1,0 +1,16 @@
+{
+  "name": "webapp-launcher",
+  "version": "0.1.4",
+  "description": "通用网页应用启动器：为任意网页创建带独立窗口、图标与沉浸式外壳的桌面应用（Tauri 2 / WebKitGTK）",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri",
+    "icons": "python3 tools/gen-icons.py"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
