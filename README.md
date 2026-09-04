@@ -27,7 +27,8 @@ WebApp Launcher 是一个**通用网页应用启动器**(结构继承自
 
 ```bash
 # Ubuntu / Debian 依赖
-sudo apt install -y libwebkit2gtk-4.1-dev build-essential curl wget file \
+sudo apt install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev \
+  build-essential curl wget file \
   libxdo-dev libssl-dev librsvg2-dev pkg-config
 
 npm ci
